@@ -12,7 +12,7 @@ from datetime import datetime
 from app.users import verify_jwt, get_user_stats_raw
 
 model_bp = Blueprint('model', __name__)
-MODEL_PATH = r'C:\smart_waste_sorting_system\Backend\best_model.keras'
+MODEL_PATH = r'best_model.keras'
 DB_PATH = 'app/database.db'
 
 CLASS_NAMES = [
