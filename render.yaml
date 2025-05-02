@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: smart-waste-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    autoDeploy: true
